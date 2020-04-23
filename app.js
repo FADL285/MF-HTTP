@@ -26,7 +26,8 @@ const data = {
 //   .then((data) => console.log(data))
 //   .catch((err) => console.log(err));
 
+// HTTP Delete Request Example:
 http
-  .delete("https://jsonplaceholder.typicode.com/users/2")
+  .delete("https://jsonplaceholder.typicode.com/use/2")
   .then((data) => console.log(data))
   .catch((err) => console.log(err));
